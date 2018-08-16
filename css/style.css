@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #ccc url(../images/page.png) repeat-x top left;
+}
+h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+p, li {
+    font-size: .8125em;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+#wrapper {
+    width: 960px;
+    height: 540px;
+    padding: 15px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -480px;
+    margin-top: -270px;
+    background: transparent url(../images/shadow.png) no-repeat 50% 50%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    background: transparent url(../images/tree.jpg) no-repeat 0 0;
+    position: relative;
+}
+#overlay {
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#pages {
+    width: 484px;
+    position: absolute;
+    left: 238px;
+    top: 40px;
+}
+#pages p {
+    margin: 0 0 1em 0;
+}
+#menu {
+    position: absolute;
+    left: 810px;
+    top: 195px;
+}
+#menu ul {
+    list-style-type: none;
+}
+#menu ul li {
+    font-family: "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+#menu ul li.about a, #about, #about a { color: #cb59a1; }
+#menu ul li.approach a, #approach, #approach a { color: #efe928; }
+#menu ul li.experience a, #experience, #experience a { color: #86aa41; }
+#menu ul li.contact a, #contact, #contact a { color: #63cadc; }
+#address {
+    position: absolute;
+    height: 65px;
+    bottom: 10px;
+    left: 12px;
+    line-height: 1.2;
+    background: transparent url(../images/logo.png) no-repeat 0 0;
+}
+#address h1 {
+    text-indent: -9999em;
+    font-size: 28px;
+}
+#address p {
+    margin-left: 75px;
+}
+#address p a {
+    color: black;
+}
+
+/* Single pages */
+#experience ul {
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0 -17px 0 0; */
+    width: 501px;
+}
+#experience img {
+    margin: 40px 0 0 -50px;
+}
+#experience ul li {
+    margin: 0 17px 17px 0;
+    float: left;
+    display: inline;
+}
+#experience ul li img {
+    display: block;
+}
+#contact #map {
+    font-size: .8125em;
+}
